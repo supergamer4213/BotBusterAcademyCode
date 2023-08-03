@@ -2,13 +2,13 @@ package org.firstinspires.ftc.teamcode.Commands;
 
 import com.arcrobotics.ftclib.command.CommandBase;
 
-import org.firstinspires.ftc.teamcode.Mechanisms.SampleMechanism.SampleMechanism;
+import org.firstinspires.ftc.teamcode.Mechanisms.SampleMechanism.Tank;
 
 public class SampleCommand extends CommandBase {
 
-    private final SampleMechanism mechanism;
+    private final Tank mechanism;
 
-    public SampleCommand(SampleMechanism mechanism) {
+    public SampleCommand(Tank mechanism) {
         this.mechanism = mechanism;
     }
 
